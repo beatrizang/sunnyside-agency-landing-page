@@ -53,3 +53,9 @@
     color: var(--white);
     transition: 0.2s;
 }
+
+@media screen and (max-width: 375px) {
+    .footer__menu__item{
+        margin: 0 0.7rem;
+    }
+}

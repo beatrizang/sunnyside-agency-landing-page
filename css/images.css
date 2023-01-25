@@ -6,3 +6,43 @@
 .iamges__img{
     width: 25%;
 }
+
+.images__img__mb{
+    display: none;
+}
+
+@media screen and (max-width: 768px) {
+
+    .images{
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+        width: 100%;
+    }
+    .iamges__img{
+        display: none;
+        
+    }
+    
+    .images__img__mb{
+        display: flex;
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 375px) {
+
+    .images{
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+        width: 100%;
+    }
+    .iamges__img{
+        display: none;
+        
+    }
+    
+    .images__img__mb{
+        display: flex;
+        width: 100%;
+    }
+}

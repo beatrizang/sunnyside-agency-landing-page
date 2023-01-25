@@ -53,3 +53,39 @@
     font-size: 0.9rem;
     margin: 0.8rem;
 }
+
+@media screen and (max-width: 768px) {
+    .testimonials__row{
+        flex-direction: column;
+    }
+
+    .testimonial{
+        margin-top: 2rem;
+    }
+
+    .testimonial__desc{
+        margin-top: 2rem;
+    }
+
+    .testimonial__person{
+        margin-top: 2rem;
+    }
+}
+
+@media screen and (max-width: 375px) {
+    .testimonials__row{
+        flex-direction: column;
+    }
+
+    .testimonial{
+        margin-top: 2rem;
+    }
+
+    .testimonial__desc{
+        margin-top: 2rem;
+    }
+
+    .testimonial__person{
+        margin-top: 2rem;
+    }
+}
