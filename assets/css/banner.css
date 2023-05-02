@@ -1,0 +1,19 @@
+.banner{
+    align-items: center;
+    background:url('../../images/desktop/image-header.jpg');
+    background-repeat: no-repeat;
+    background-size:cover;
+    height: 100vh;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.banner__title{
+    color: var(--white);
+    font-family: var(--ff-fraunces);
+    font-size: 4rem;
+    letter-spacing: 0.8rem;
+    padding-bottom: 3rem;
+}

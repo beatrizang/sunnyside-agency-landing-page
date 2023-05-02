@@ -1,0 +1,39 @@
+.squares{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    width: 100%;
+}
+
+.square{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.square__img{
+    width: 100%;
+}
+
+.square__title{
+    color: var(--very-dark-desaturated-blue);
+    font-size: 2rem;
+    font-family: var(--ff-fraunces);
+    margin-bottom: 2rem;
+    padding-left: 20%;
+    width: 60%;
+}
+
+.square__paragraph{
+    color: var(--dark-grayish-blue);
+    line-height: 1.5rem;
+    margin-bottom: 2rem;
+    width: 60%;
+    padding-left: 20%;
+}
+
+.square__link{
+    color: var(--very-dark-desaturated-blue);
+    font-family: var(--ff-fraunces);
+    text-transform: uppercase;
+    padding-left: 20%;
+}

@@ -1,0 +1,64 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow:wght@600&family=Fraunces:wght@700;900&display=swap');
+
+:root{
+    --light-blue: #3dbeff;
+    --light-blue-transparent: hsla(200, 100%, 77%, 0.753);
+
+    --soft-red: hsl(7, 99%, 70%);
+    --yellow: hsl(51, 100%, 49%);
+    --dark-desaturated-cyan: hsl(167, 40%, 24%);
+    --dark-blue: hsl(198, 62%, 26%);
+    --dark-moderate-cyan: hsl(168, 34%, 41%);
+
+    --very-dark-desaturated-blue: hsl(212, 27%, 19%);
+    --very-dark-grayish-blue: hsl(213, 9%, 39%);
+    --dark-grayish-blue: hsl(232, 10%, 55%);
+    --grayish-blue: hsl(210, 4%, 67%);
+    --white: hsl(0, 0%, 100%);
+
+    --ff-barlow: 'Barlow', sans-serif;
+    --ff-fraunces: 'Fraunces', serif;
+}
+
+body{
+    font-family: var(--ff-barlow);
+}
+
+.header{
+    align-items: center;
+    background: var(--light-blue);
+    display: flex;
+    justify-content: space-between;
+    padding: 1rem 0;
+    width: 100%;
+}
+
+.header__logo{
+    margin-left: 2rem;
+}
+
+.menu{
+    align-items: center;
+    color: var(--white);
+    display: flex;
+}
+
+.menu__item{
+    margin-right: 2rem;
+}
+
+.btn__item{
+    background: var(--white);
+    border-radius: 2rem;
+    color: var(--very-dark-desaturated-blue);
+    cursor: pointer;
+    font-family: var(--ff-fraunces);
+    padding: 0.8rem 1.5rem;
+    text-transform: uppercase;
+    transition: all 0.3s linear;
+}
+
+.btn__item:hover{
+    color: var(--white);
+    background: var(--light-blue-transparent);
+}
