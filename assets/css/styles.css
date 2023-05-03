@@ -104,7 +104,7 @@ body{
         color: var(--dark-grayish-blue);
         flex-direction: column;
         line-height: 1.5rem;
-        width: 600px;
+        width: 90%;
         padding: 2rem 1rem;
         margin: 0 auto;
     }
@@ -144,7 +144,7 @@ body{
         color: var(--dark-grayish-blue);
         flex-direction: column;
         line-height: 1.5rem;
-        width: 300px;
+        width: 80%;
         padding: 2rem 1rem;
         margin: 0 auto;
     }
