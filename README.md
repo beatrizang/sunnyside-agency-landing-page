@@ -28,7 +28,7 @@ Users should be able to:
 
 ![](./images/screenshots/dk1.png)
 
-![](./images/screenshots/dk1.png)
+![](./images/screenshots/dk2.png)
 
 - Mobile
 
