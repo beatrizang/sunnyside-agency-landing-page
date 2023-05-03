@@ -5,6 +5,7 @@
 }
 
 .square{
+    background: var(--light-yellow);
     display: flex;
     flex-direction: column;
     justify-content: center;
