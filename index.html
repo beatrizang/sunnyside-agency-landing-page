@@ -20,7 +20,10 @@
 <body>
   <header class="header">
     <img class="header__logo" src="./images/logo.svg" alt="Sunnyside logo">
-    <nav class="nav">
+    <button class="btn-menu" id="btn-menu">
+      <i class="fa-solid fa-bars"></i>
+    </button>
+    <nav id="nav" class="nav">
       <ul class="menu">
         <li class="menu__item"><a href="#">About</a></li>
         <li class="menu__item"><a href="#">Services</a></li>
@@ -35,7 +38,7 @@
       <img class="banner__arrow" src="./images/icon-arrow-down.svg" alt="arrow down">
     </section>
     <section class="squares">
-      <div class="square">
+      <div class="square transform">
         <h2 class="square__title">Transform your brand</h2>
         <p class="square__paragraph">
           We are a full-service creative agency specializing in helping brands grow fast. 
@@ -43,26 +46,28 @@
         </p>
         <a class="square__link" href="#">Learn more</a>
       </div>
-      <div class="square">
-        <img class="square__img" src="./images/desktop/image-transform.jpg" alt="image transform">
+      <div class="square egg">
+        <img class="square__img image__desktop" src="./images/desktop/image-transform.jpg" alt="image transform">
+        <img class="image__mobile" src="./images/mobile/image-transform.jpg" alt="">
       </div>
-      <div class="square">
-        <img class="square__img" src="./images/desktop/image-stand-out.jpg" alt="image stand out">
+      <div class="square cup">
+        <img class="square__img image__desktop" src="./images/desktop/image-stand-out.jpg" alt="image stand out">
+        <img class="image__mobile" src="./images/mobile/image-stand-out.jpg" alt="">
       </div>
-      <div class="square">
+      <div class="square stand">
         <h2 class="square__title">Stand out to the right audience</h2>
         <p class="square__paragraph">
           Using a collaborative formula of designers, researchers, photographers, videographers, and copywriters, we’ll build and extend your brand in digital places.
         </p>
         <a class="square__link" href="#">Learn more</a>
       </div>
-      <div class="square square__bottom square__bottom__left">
+      <div class="square graphic square__bottom square__bottom__left">
         <h2 class="square__bottom__title">Graphic design</h2>
         <p class="square__bottom__param">
           Great design makes you memorable. We deliver artwork that underscores your brand message and captures potential clients’ attention.
         </p>
       </div>
-      <div class="square square__bottom square__bottom__right">
+      <div class="square photography square__bottom square__bottom__right">
         <h2 class="square__bottom__title">Photography</h2>
         <p class="square__bottom__param">
           Increase your credibility by getting the most stunning, high-quality photos that improve your business image.
@@ -128,5 +133,6 @@
       <li class="social__item"><a href="#"><i class="fa-brands fa-pinterest"></i></a></li>
     </ul>
   </footer>
+  <script src="./assets/js/index.js"></script>
 </body>
 </html>

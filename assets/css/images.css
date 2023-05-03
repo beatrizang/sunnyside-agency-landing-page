@@ -6,3 +6,25 @@
 .image-bottom{
     width: 25%;
 }
+
+@media screen and (max-width: 768px) {
+    .images-bottom{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        width: 100%;
+    }
+    .image-bottom{
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 375px) {
+    .images-bottom{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        width: 100%;
+    }
+    .image-bottom{
+        width: 100%;
+    }
+}

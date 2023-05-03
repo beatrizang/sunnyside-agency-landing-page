@@ -46,3 +46,39 @@
 .author__job{
     color: var(--grayish-blue);
 }
+
+@media screen and (max-width: 768px) {
+    .testimonial{
+        padding: 2rem 0;
+    }
+
+    .testimonials__title{
+        font-size: 1.5rem;
+    }
+
+    .list-testimonial{
+        flex-direction: column;
+    }
+
+    .testimonial__desc{
+        width: 100%;
+    }  
+}
+
+@media screen and (max-width: 375px) {
+    .testimonial{
+        padding: 2rem 0;
+    }
+
+    .testimonials__title{
+        font-size: 1.5rem;
+    }
+
+    .list-testimonial{
+        flex-direction: column;
+    }
+
+    .testimonial__desc{
+        width: 100%;
+    }  
+}

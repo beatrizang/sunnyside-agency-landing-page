@@ -17,3 +17,28 @@
     letter-spacing: 0.8rem;
     padding-bottom: 3rem;
 }
+
+@media screen and (max-width: 768px) {
+    .banner{
+        background:url('../../images/desktop/image-header.jpg');
+        background-repeat: no-repeat;
+        background-size:cover;
+        background-position: 50%;
+    }
+
+    .banner__title{
+        font-size: 2.5rem;
+    }
+}
+
+@media screen and (max-width: 375px) {
+    .banner{
+        background:url('../../images/mobile/image-header.jpg');
+        background-repeat: no-repeat;
+        background-size:cover;
+    }
+
+    .banner__title{
+        font-size: 2.5rem;
+    }
+}

@@ -10,6 +10,10 @@
     justify-content: center;
 }
 
+.image__mobile{
+    display: none;
+}
+
 .square__img{
     width: 100%;
 }
@@ -38,7 +42,6 @@
     padding-left: 20%;
 }
 
-
 .square__bottom__left{
     background: url('../../images/desktop/image-graphic-design.jpg');
     color: var(--dark-desaturated-cyan);
@@ -66,4 +69,132 @@
 .square__bottom__param{
     padding-bottom: 10%;
     width: 50%;
+}
+
+@media screen and (max-width: 768px) {
+    .squares{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .square{
+        text-align: center;
+    }
+
+    .square__link{
+        padding-left: 0%;
+    }
+
+    .image__mobile{
+        display: flex;
+    }
+
+    .image__desktop{
+        display: none;
+    }
+
+    .egg{
+        order: 1;
+    }
+
+    .transform{
+        order: 2;
+        padding: 3rem 0;
+    }
+    .cup{
+        order: 3;
+    }
+
+    .stand{
+        order: 4;
+        padding: 3rem 0;
+    }
+
+    .graphic{
+        order: 5;
+    }
+
+    .photography{
+        order: 6;
+    }
+
+    .square__bottom__left{
+        background: url('../../images/mobile/image-graphic-design.jpg');
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: 0 40%;
+        color: var(--dark-desaturated-cyan);
+    }
+    
+    .square__bottom__right{
+        background: url('../../images/mobile/image-photography.jpg');
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: 0 40%;
+        color: var(--dark-blue);
+    }
+}
+
+@media screen and (max-width: 375px) {
+    .squares{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .square{
+        text-align: center;
+    }
+
+    .square__link{
+        padding-left: 0%;
+    }
+
+    .image__mobile{
+        display: flex;
+    }
+
+    .image__desktop{
+        display: none;
+    }
+
+    .egg{
+        order: 1;
+    }
+
+    .transform{
+        order: 2;
+        padding: 3rem 0;
+    }
+    .cup{
+        order: 3;
+    }
+
+    .stand{
+        order: 4;
+        padding: 3rem 0;
+    }
+
+    .graphic{
+        order: 5;
+    }
+
+    .photography{
+        order: 6;
+    }
+
+    .square__bottom__left{
+        background: url('../../images/mobile/image-graphic-design.jpg');
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: 10%;
+        color: var(--dark-desaturated-cyan);
+    }
+    
+    .square__bottom__right{
+        background: url('../../images/mobile/image-photography.jpg');
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: 10%;
+        color: var(--dark-blue);
+    }
 }
