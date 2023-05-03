@@ -104,7 +104,7 @@ body{
         color: var(--dark-grayish-blue);
         flex-direction: column;
         line-height: 1.5rem;
-        width: 90%;
+        width: 80%;
         padding: 2rem 1rem;
         margin: 0 auto;
     }
