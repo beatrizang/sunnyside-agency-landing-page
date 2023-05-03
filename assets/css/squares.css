@@ -37,3 +37,33 @@
     text-transform: uppercase;
     padding-left: 20%;
 }
+
+
+.square__bottom__left{
+    background: url('../../images/desktop/image-graphic-design.jpg');
+    color: var(--dark-desaturated-cyan);
+}
+
+.square__bottom__right{
+    background: url('../../images/desktop/image-photography.jpg');
+    color: var(--dark-blue);
+}
+
+.square__bottom{
+    align-items: center;
+    background-repeat: no-repeat;
+    height: 90vh;
+    text-align: center;
+    justify-content:end;
+}
+
+.square__bottom__title{
+    font-family: var(--ff-fraunces);
+    font-size: 1.5rem;
+    padding-bottom: 2rem;
+}
+
+.square__bottom__param{
+    padding-bottom: 10%;
+    width: 50%;
+}

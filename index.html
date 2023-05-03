@@ -11,6 +11,9 @@
   <link rel="stylesheet" href="./assets/css/styles.css">
   <link rel="stylesheet" href="./assets/css/banner.css">
   <link rel="stylesheet" href="./assets/css/squares.css">
+  <link rel="stylesheet" href="./assets/css/testimonial.css">
+  <link rel="stylesheet" href="./assets/css/images.css">
+  <link rel="stylesheet" href="./assets/css/footer.css">
 
   <script src="https://kit.fontawesome.com/58e0304b5a.js" crossorigin="anonymous"></script>
 </head>
@@ -53,82 +56,76 @@
         </p>
         <a class="square__link" href="#">Learn more</a>
       </div>
-      <div class="square">
-        <h2>Graphic design</h2>
-        <p>
+      <div class="square square__bottom square__bottom__left">
+        <h2 class="square__bottom__title">Graphic design</h2>
+        <p class="square__bottom__param">
           Great design makes you memorable. We deliver artwork that underscores your brand message and captures potential clients’ attention.
         </p>
       </div>
-      <div class="square">
-        <h2>Photography</h2>
-        <p>
+      <div class="square square__bottom square__bottom__right">
+        <h2 class="square__bottom__title">Photography</h2>
+        <p class="square__bottom__param">
           Increase your credibility by getting the most stunning, high-quality photos that improve your business image.
         </p>
       </div>
     </section>
-    <section>
-      <h2>Client testimonials</h2>
-      <div>
-        <img src="./images/image-emily.jpg" alt="image Emily">
-        <p>
-          We put our trust in Sunnyside and they delivered, making sure our needs were met and deadlines were always hit.
-        </p>
-        <div>
-          <p>Emily R.</p>
-          <p>Marketing Director</p>
+    <section class="testimonials">
+      <h2 class="testimonials__title">Client testimonials</h2>
+      <div class="list-testimonial">
+        <div class="testimonial">
+          <img class="testimonial__img" src="./images/image-emily.jpg" alt="image Emily">
+          <p class="testimonial__desc">
+            We put our trust in Sunnyside and they delivered, making sure our needs were met and deadlines were always hit.
+          </p>
+          <div class="author">
+            <p class="author__name">Emily R.</p>
+            <p class="author__job">Marketing Director</p>
+          </div>
         </div>
-      </div>
-      <div>
-        <img src="./images/image-thomas.jpg" alt="Image Thomas">
-        <p>
-          Sunnyside’s enthusiasm coupled with their keen interest in our brand’s success made it a satisfying and enjoyable experience.
-        </p>
-        <div>
-          <p>Thomas S.</p>
-          <p>Chief Operating Officer</p>
+        <div class="testimonial">
+          <img class="testimonial__img" src="./images/image-thomas.jpg" alt="Image Thomas">
+          <p class="testimonial__desc">
+            Sunnyside’s enthusiasm coupled with their keen interest in our brand’s success made it a satisfying and enjoyable experience.
+          </p>
+          <div class="author">
+            <p class="author__name">Thomas S.</p>
+            <p class="author__job">Chief Operating Officer</p>
+          </div>
         </div>
-      </div>
-      <div>
-        <img src="./images/image-jennie.jpg" alt="Image Jennie">
-        <p>
-          Incredible end result! Our sales increased over 400% when we worked with Sunnyside. Highly recommended!
-        </p>
-        <div>
-          <p>Jennie F.</p>
-          <p>Business Owner</p>
+        <div class="testimonial">
+          <img class="testimonial__img" src="./images/image-jennie.jpg" alt="Image Jennie">
+          <p class="testimonial__desc">
+            Incredible end result! Our sales increased over 400% when we worked with Sunnyside. Highly recommended!
+          </p>
+          <div class="author">
+            <p class="author__name">Jennie F.</p>
+            <p class="author__job">Business Owner</p>
+          </div>
         </div>
       </div>
     </section>
-    <section>
-      <div>
-        <img src="./images/desktop/image-gallery-milkbottles.jpg" alt="Image Milkbottles">
-      </div>
-      <div>
-        <img src="./images/desktop/image-gallery-orange.jpg" alt="Image Orange">
-      </div>
-      <div>
-        <img src="./images/desktop/image-gallery-cone.jpg" alt="Image Cone">
-      </div>
-      <div>
-        <img src="./images/desktop/image-gallery-sugarcubes.jpg" alt="Image Sugarcubes">
-      </div>
+    <section class="images-bottom">
+        <img class="image-bottom" src="./images/desktop/image-gallery-milkbottles.jpg" alt="Image Milkbottles">
+        <img class="image-bottom" src="./images/desktop/image-gallery-orange.jpg" alt="Image Orange">
+        <img class="image-bottom" src="./images/desktop/image-gallery-cone.jpg" alt="Image Cone">
+        <img class="image-bottom"src="./images/desktop/image-gallery-sugarcubes.jpg" alt="Image Sugarcubes">
     </section>
   </main>
 
-  <footer class="attribution">
-    <h2>sunnyside</h2>
-    <nav>
-      <ul>
-        <li><a href="#">About</a></li>
-        <li><a href="#">Services</a></li>
-        <li><a href="#">Projects</a></li>
+  <footer class="footer">
+    <h2 class="footer__title">sunnyside</h2>
+    <nav class="nav-footer">
+      <ul class="menu-footer">
+        <li class="menu-footer-item"><a href="#">About</a></li>
+        <li class="menu-footer-item"><a href="#">Services</a></li>
+        <li class="menu-footer-item"><a href="#">Projects</a></li>
       </ul>
     </nav>
-    <ul>
-      <li><a href="#"><i class="fa-brands fa-square-facebook"></i></a></li>
-      <li><a href="#"><i class="fa-brands fa-instagram"></i></a></li>
-      <li><a href="#"><i class="fa-brands fa-twitter"></i></a></li>
-      <li><a href="#"><i class="fa-brands fa-pinterest"></i></a></li>
+    <ul class="social">
+      <li class="social__item"><a href="#"><i class="fa-brands fa-square-facebook"></i></a></li>
+      <li class="social__item"><a href="#"><i class="fa-brands fa-instagram"></i></a></li>
+      <li class="social__item"><a href="#"><i class="fa-brands fa-twitter"></i></a></li>
+      <li class="social__item"><a href="#"><i class="fa-brands fa-pinterest"></i></a></li>
     </ul>
   </footer>
 </body>
