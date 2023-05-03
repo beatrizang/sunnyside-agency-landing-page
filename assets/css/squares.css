@@ -39,7 +39,7 @@
     color: var(--very-dark-desaturated-blue);
     font-family: var(--ff-fraunces);
     text-transform: uppercase;
-    padding-left: 20%;
+    margin-left: 20%;
 }
 
 .square__bottom__left{
