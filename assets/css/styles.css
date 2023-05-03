@@ -55,6 +55,7 @@ body{
     color: var(--white);
     display: none;
     font-size: 1.8rem;
+    margin-right: 1rem;
 }
 
 .menu__item{
@@ -80,6 +81,7 @@ body{
 @media screen and (max-width: 768px) {
 
     .header{
+        text-align: center;
         position: relative;
         width: 100%;
     }
@@ -89,9 +91,12 @@ body{
     }
 
     .nav{
-        margin: 50% auto 0 10%;
+        align-items: center;
+        margin: 400px auto 0 auto;
         position: absolute;
+        justify-content: center;
         display: none;
+        width: 100%;
     }
 
     .menu{
@@ -101,6 +106,7 @@ body{
         line-height: 1.5rem;
         width: 600px;
         padding: 2rem 1rem;
+        margin: 0 auto;
     }
 
     .menu__item{
@@ -125,9 +131,12 @@ body{
     }
 
     .nav{
-        margin: 100% auto 0 5%;
+        align-items: center;
+        margin: 400px auto 0 auto;
         position: absolute;
+        justify-content: center;
         display: none;
+        width: 100%;
     }
 
     .menu{
@@ -137,6 +146,7 @@ body{
         line-height: 1.5rem;
         width: 300px;
         padding: 2rem 1rem;
+        margin: 0 auto;
     }
 
     .menu__item{
